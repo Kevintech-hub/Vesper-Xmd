@@ -1,0 +1,183 @@
+{
+  "name": "Vesper-Xmd",
+  "version": "2.0.0",
+  "description": "Vesper-Xmd WhatsApp Bot - Advanced WhatsApp Bot with AI features",
+  "keywords": ["whatsapp", "bot", "vesper", "xmd", "ai", "kelvin"],
+  "repository": "https://github.com/vinicbot-dev/Vesper-Xmd",
+  "stack": "container",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "env": {
+    "SESSION_ID": {
+      "description": "Enter your Vesper-Xmd session id from MEGA (jexploit~XXXXX)",
+      "value": "",
+      "required": false
+    },
+    "BOT_NAME": {
+      "description": "Enter your bot name",
+      "value": "VESPER-XMD",
+      "required": false
+    },
+    "OWNER_NUMBER": {
+      "description": "Enter your number here with country code (e.g., 256742932677)",
+      "value": "256742932677",
+      "required": true
+    },
+    "OWNER_NAME": {
+      "description": "Enter your name",
+      "value": "Kelvin Dev",
+      "required": true
+    },
+    "STICKER_PACK_NAME": {
+      "description": "Sticker pack name",
+      "value": "VESPER",
+      "required": false
+    },
+    "STICKER_AUTHOR_NAME": {
+      "description": "Sticker author name",
+      "value": "XMD",
+      "required": false
+    },
+    "HEROKU_API_KEY": {
+      "description": "Enter Heroku API key for auto-deploy",
+      "value": "",
+      "required": false
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Enter your Heroku app name",
+      "value": "",
+      "required": false
+    },
+    "BOT_PREFIX": {
+      "description": "Bot command prefix",
+      "value": ".",
+      "required": true
+    },
+    "MODE": {
+      "description": "Bot mode: 'public', 'private', 'group', or 'pm'",
+      "value": "public",
+      "required": false
+    },
+    "ANTIDELETE": {
+      "description": "Anti-delete: 'private' (send to yourself), 'chat' (send to current chat), or 'off'",
+      "value": "private",
+      "required": false
+    },
+    "ANTI_EDIT": {
+      "description": "Anti-edit: 'private', 'chat', or 'off'",
+      "value": "private",
+      "required": false
+    },
+    "ALWAYS_ONLINE": {
+      "description": "Keep bot online 24/7: true or false",
+      "value": "true",
+      "required": true
+    },
+    "AUTO_STATUS_VIEW": {
+      "description": "Auto view status updates: true or false",
+      "value": "true",
+      "required": false
+    },
+    "AUTO_STATUS_REACT": {
+      "description": "Auto react to status: true or false",
+      "value": "false",
+      "required": false
+    },
+    "STATUS_EMOJI": {
+      "description": "Status reaction emoji",
+      "value": "💙",
+      "required": false
+    },
+    "CHATBOT": {
+      "description": "Enable AI chatbot: true or false",
+      "value": "true",
+      "required": false
+    },
+    "ANTI_CALL": {
+      "description": "Anti-call: 'decline', 'block', or 'off'",
+      "value": "block",
+      "required": false
+    },
+    "WELCOME_MSG": {
+      "description": "Enable welcome messages: true or false",
+      "value": "true",
+      "required": false
+    },
+    "ADMIN_EVENT": {
+      "description": "Show admin promotion/demotion events: true or false",
+      "value": "true",
+      "required": false
+    },
+    "TIMEZONE": {
+      "description": "Your timezone (e.g., Africa/Kampala)",
+      "value": "Africa/Kampala",
+      "required": false
+    },
+    "SUDO": {
+      "description": "Additional admin numbers (separate with commas)",
+      "value": "",
+      "required": false
+    },
+    "AUTO_READ": {
+      "description": "Auto read messages: true or false",
+      "value": "false",
+      "required": false
+    },
+    "AUTO_REACT": {
+      "description": "Auto react to messages: true or false",
+      "value": "false",
+      "required": false
+    },
+    "AUTO_TYPING": {
+      "description": "Show typing indicator: true or false",
+      "value": "false",
+      "required": false
+    },
+    "AUTO_RECORDING": {
+      "description": "Show recording indicator: true or false",
+      "value": "false",
+      "required": false
+    },
+    "ANTI_LINK": {
+      "description": "Anti-link in groups: 'warn', 'kick', or 'off'",
+      "value": "warn",
+      "required": false
+    },
+    "MENU_STYLE": {
+      "description": "Menu style: 1, 2, 3, 4, 5, or 6",
+      "value": "2",
+      "required": false
+    },
+    "DB_TOKEN": {
+      "description": "GitHub token for database (optional)",
+      "value": "",
+      "required": false
+    },
+    "PAIRING_CODE": {
+      "description": "Custom pairing code for login (optional)",
+      "value": "",
+      "required": false
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-imagemagick.git"
+    }
+  ],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  }
+}
