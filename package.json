@@ -1,18 +1,33 @@
 {
-    "name": "Vesper-Xmd",
-    "version": "1.0.0",
-    "description": "Advanced Whatsapp bot",
+    "name": "Jexploit",
+    "version": "1.2.0",
+    "description": "Advanced WhatsApp Bot",
     "main": "index.js",
     "type": "commonjs",
+    "engines": {
+        "node": "20.x",
+        "npm": ">= 10.x"
+    },
     "scripts": {
-        "start": "node index.js"
+        "start": "node index.js",
+        "bot": "node index.js",
+        "stop": "pkill -f node",
+        "restart": "npm stop && npm start",
+        "pm2": "pm2 start ecosystem.settings.js",
+        "pm2:stop": "pm2 stop Vesper-Xmd",
+        "pm2:restart": "pm2 restart Vesper-Xmd",
+        "pm2:logs": "pm2 logs Vesper-Xmd",
+        "pm2:status": "pm2 status",
+        "pm2:monit": "pm2 monit",
+        "pm2:save": "pm2 save",
+        "pm2:startup": "pm2 startup",
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [
-        "whiskeysockets",
+        "whatsapp-bot",
         "multi-device",
-        "Jexploit-dev",
-        "Kevin-base1",
-        "Kevin dev"
+        "baileys",
+        "Jexploit"
     ],
     "author": "Kevin",
     "license": "MIT",
@@ -22,7 +37,7 @@
         "@hapi/boom": "^10.0.0",
         "@ffmpeg-installer/ffmpeg": "^1.1.0",
         "@vitalets/google-translate-api": "^9.2.1",
-        "@whiskeysockets/baileys": "npm:angularsockets",
+        "@whiskeysockets/baileys": "npm:riftcore",
         "any-base": "^1.1.0",
         "awesome-phonenumber": "^2.70.0",
         "chalk": "^4.1.2",
