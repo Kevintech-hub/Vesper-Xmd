@@ -27,6 +27,7 @@
         "awesome-phonenumber": "^2.70.0",
         "chalk": "^4.1.2",
         "axios": "^1.10.0",
+        "adm-zip": "^0.5.16",
         "api-dylux": "latest",
         "acrcloud": "^1.4.0",
         "google-tts-api": "^2.0.2",
