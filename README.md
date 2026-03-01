@@ -42,7 +42,7 @@ src="https://files.catbox.moe/xd8cvb.jpg">
 <p align="center">
     <strong>2. GET SESSION ID</strong>
     <br>
-    <a href="https://vinic-xmd-pairing-site-dsf-crew-devs.onrender.com" target="_blank">
+    <a href="https://vinic-xmd-pairing-site-dsf-crew-devs-4o7e.onrender.com/" target="_blank">
         <img alt="WEBSITE" src="https://img.shields.io/badge/Pair-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkred&color=darkred"/>
     </a>
 </p>
