@@ -1,21 +1,21 @@
+/*Kelvin Tech*/
+
 // settings.js
-// credit by Kevin tech 
 
-const config = require('./start/Core/developer');
 
+const config = require('./start/Core/developer')
 
 const settings = {
-  SESSION_ID: config.SESSION_ID || "", // enter session id
-  ownername: config.ownername || "ᴋᴇʟᴠɪɴ ᴛᴇᴄʜ", // Owner name
-  botname: config.botname || "Vesper-Xmd", // custom bot name
-  prefa: config.prefa || ['.', '!'], // Command prefixes
-  owner: config.owner || ["256742932677"] // Owner phone numbers
+  SESSION_ID: process.env.SESSION_ID || config.SESSION_ID || "", 
+  ownername: process.env.OWNER_NAME || config.ownername || "ᴋᴇʟᴠɪɴ ᴛᴇᴄʜ", 
+  botname: process.env.BOT_NAME || config.botname || "Vesper-Xmd", 
+  prefa: config.prefa || ['.', '!'], 
+  owner: config.owner || ["256742932677"] 
 };
 
 // Export settings for use in other modules
 module.exports = settings;
 
-// Watch for changes to this file and reload if updated
 const fs = require('fs');
 let file = require.resolve(__filename);
 fs.watchFile(file, () => {
