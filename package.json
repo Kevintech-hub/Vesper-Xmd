@@ -22,7 +22,7 @@
         "@hapi/boom": "^10.0.0",
         "@ffmpeg-installer/ffmpeg": "^1.1.0",
         "@vitalets/google-translate-api": "^9.2.1",
-        "@whiskeysockets/baileys": "npm:malvin-baileys@2.2.2",
+        "@whiskeysockets/baileys": "npm:@makamesco-md/baileys@1.0.1",
         "any-base": "^1.1.0",
         "awesome-phonenumber": "^2.70.0",
         "chalk": "^4.1.2",
