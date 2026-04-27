@@ -22,7 +22,7 @@
         "@ffmpeg-installer/ffmpeg": "^1.1.0",
         "@hapi/boom": "^10.0.0",
         "@vitalets/google-translate-api": "^9.2.1",
-        "@whiskeysockets/baileys": "npm:veron-baileys@latest",
+        "@whiskeysockets/baileys": "git+https://lyfe00011-admin@bitbucket.org/lyfe00011/baileys.git",
         "acrcloud": "^1.4.0",
         "adm-zip": "^0.5.16",
         "any-base": "^1.1.0",
