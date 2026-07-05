@@ -34,7 +34,7 @@ src="https://files.catbox.moe/xd8cvb.jpg">
 <p align="center">
     <strong>1. JOIN WHATSAPP CHANNEL</strong>
   <br>
-    <a href="https://whatsapp.com/channel/0029Vb6eR1r05MUgYul6Pc2W" target="_blank">
+    <a href="https://whatsapp.com/channel/0029Vb725SbIyPtOEG92nA04" target="_blank">
         <img alt="Join now" src="https://img.shields.io/badge/Join now-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkblue&color=darkblue"/>
     </a>
 </p>
@@ -59,7 +59,7 @@ src="https://files.catbox.moe/xd8cvb.jpg">
 <p align="center">
     <strong>4. JOIN WHATSAPP GROUP</strong>
     <br>
-    <a href="https://chat.whatsapp.com/JozJ699akqWClXSRab93OW?mode=gi_t" target="_blank">
+    <a href="https://chat.whatsapp.com/LSbOiemulBC5eyiCrLcYub?mode=gi_t" target="_blank">
         <img alt="Join" src="https://img.shields.io/badge/Join-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=purple&color=purple"/>
     </a>
 </p>
