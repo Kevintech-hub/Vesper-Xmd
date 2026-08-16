@@ -1,9 +1,9 @@
 {
   "name": "Vesper-Xmd",
-  "description": "Vesper-Xmd advanced Whatsapp bot!",
+  "description": "Vesper-Xmd advanced Whatsapp bot made from In Uganda!",
   "keywords": [],
   "repository": "https://github.com/Kevintech-hub/Vesper-Xmd",
-  "stack": "container",
+  "stack": "heroku-24",
   "addons": [
     {
       "plan": "heroku-postgresql"
@@ -12,22 +12,19 @@
   "scripts": {
     "start": "node index.js"
   },
-"env": {
-  "SESSION_ID": {
-    "description": "Session id must begin with JEXPLOIT-BOT~ or VESPER-BOT:~ ",
-    "value": "",
-    "required": false
-  }
-},
+  "env": {
+    "SESSION_ID": {
+      "description": "Session id must start with: JEXPLOIT-BOT~, JEXPLOIT-BOT:~, VESPER-BOT~, VESPER-BOT:~, or kevin~",
+      "value": "",
+      "required": false
+    }
+  },
   "buildpacks": [
     {
       "url": "heroku/nodejs"
     },
     {
-      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git"
-    },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+      "url": "https://github.com/heroku/heroku-buildpack-activestorage-preview"
     },
     {
       "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
