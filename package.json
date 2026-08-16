@@ -1,6 +1,6 @@
 {
     "name": "Vesper-Xmd",
-    "version": "1.2.1",
+    "version": "1.3.0",
     "description": "Advanced Whatsapp bot",
     "main": "index.js",
     "type": "commonjs",
@@ -22,7 +22,7 @@
         "@ffmpeg-installer/ffmpeg": "^1.1.0",
         "@hapi/boom": "^10.0.0",
         "@vitalets/google-translate-api": "^9.2.1",
-        "@whiskeysockets/baileys": "https://github.com/Kevintech-hub/JexCore-baileys/archive/refs/tags/V3.0.tar.gz",
+        "@whiskeysockets/baileys": "https://github.com/Kevintech-hub/JexCore-baileys/archive/refs/tags/V1.0.8tar.gz",
         "acrcloud": "^1.4.0",
         "adm-zip": "^0.5.16",
         "any-base": "^1.1.0",
