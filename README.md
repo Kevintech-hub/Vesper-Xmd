@@ -70,8 +70,8 @@
 | | |
 |:---:|:---|
 | **1. Join WhatsApp Channel** | [![Join Channel](https://img.shields.io/badge/JOIN%20CHANNEL-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://whatsapp.com/channel/0029Vb725SbIyPtOEG92nA04) |
-| **2. Get Session ID** | [![Get Pair Code](https://img.shields.io/badge/GET%20PAIR%20CODE-FF6B6B?style=for-the-badge&logo=keycdn&logoColor=white)](https://vesper-xmd-pair.jexp.top) |
-| **3. Get Session ID (Alt)** | [![Alt Pair](https://img.shields.io/badge/ALTERNATIVE%20PAIR-4ECDC4?style=for-the-badge&logo=keycdn&logoColor=white)](https://jexploit-pair.jexp.top) |
+| **2. Get Session ID** | [![Get Pair Code](https://img.shields.io/badge/GET%20PAIR%20CODE-FF6B6B?style=for-the-badge&logo=keycdn&logoColor=white)](https://vesper-xmd-pair.kevintech.space) |
+| **3. Get Session ID (Alt)** | [![Alt Pair](https://img.shields.io/badge/ALTERNATIVE%20PAIR-4ECDC4?style=for-the-badge&logo=keycdn&logoColor=white)](https://jexploit-pair.kevintech.space) |
 | **4. Join WhatsApp Group** | [![Join Group](https://img.shields.io/badge/JOIN%20GROUP-FFA62B?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/LSbOiemulBC5eyiCrLcYub?mode=gi_t) |
 | **5. Join Telegram Support** | [![Join Telegram](https://img.shields.io/badge/JOIN%20TELEGRAM-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/VinicSupportDsfCrewDevs) |
 | **6. Discussion Forum** | [![Discussion Forum](https://img.shields.io/badge/DISCUSSION%20FORUM-9B59B6?style=for-the-badge&logo=google-chat&logoColor=white)](https://whatsapp.com/channel/0029Vb6eR1r05MUgYul6Pc2W) |
